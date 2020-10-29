@@ -1,4 +1,7 @@
 # coding: utf-8
+'''
+用于扫描主机端口
+'''
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.settimeout(0.5)
