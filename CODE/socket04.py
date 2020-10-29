@@ -5,6 +5,6 @@ s.settimeout(0.5)
 ip = "19.244.46.22"
 for port in range(5000,9000):
     result = s.connect_ex((ip, port))
-    if result ==0:
+    if result == 0:
         print('port %d is opened' % port)
 s.close()
